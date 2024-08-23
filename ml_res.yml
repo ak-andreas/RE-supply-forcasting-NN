@@ -1,0 +1,14 @@
+name: ml_res_env1
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - tqdm
+  - tensorflow
+  - scikit-learn
+  - matplotlib
+
+# conda env create -f ml_res.yml
+# conda env update -f ml_res.yml
